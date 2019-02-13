@@ -1,0 +1,15 @@
+.oh-card-set {
+  position: relative;
+  top: 300px;
+  left: 400px;
+}
+
+.oh-card-set > div {
+  width: 60px;
+  height: 80px;
+  position: absolute;
+  border: 1px solid red;
+  background-color: rebeccapurple;
+  transition: top 2s,left 2s,transform 1s,background-color 1s .4s;
+  cursor: pointer;
+}
